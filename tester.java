@@ -30,9 +30,6 @@ public class tester {
 		aa.add("tusk");
 	    String outfile=new String("Bluedog.out");
 		Prefix pre=new Prefix(aa,2,true);
-		//pre.initialPre();
-		//System.out.println(pre.getPrefix().toString());
-		//System.out.println(pre.findSuccessor().toString());
 		RandomTextGenerator ha=new RandomTextGenerator(pre,10,true);
 		PrintWriter pw=new PrintWriter(outfile);
 		ha.genNewText(pw);
